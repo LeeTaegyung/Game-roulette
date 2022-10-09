@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Roulette</title>
+</head>
+<body>
+    <div class="roulett_box">
+        <div class="roulette">
+            <canvas id=""></canvas>
+            <img src="img/arrow.png" alt="" class="arrow_custom">
+            <button type="button" class="start_custom"><img src="img/start.png" alt=""></button>
+        </div>
+    </div>
+
+    
+    <p class="desc">
+        <strong>생성자 함수</strong>로 만든 룰렛게임입니다.<br>
+        옵션을 통해 각 파이의 값을 조절할 수도 있고, <br>
+        이미지를 통이미지/파이이미지 각각의 이미지로 커스텀도 할 수 있게 제작되었습니다. <br>
+        옵션을 통해 애니메이션의 easing과 spins 및 duration을 조절할 수 있습니다.<br>
+        룰렛의 시작 위치또한 옵션을 통해 상하좌우로 조절할 수 있습니다.
+    </p>
+
+    <div class="result_pop">
+        <div class="pop_box">
+            <p>축하드립니다! <strong class="result_txt"></strong>에 당첨되셨습니다~</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

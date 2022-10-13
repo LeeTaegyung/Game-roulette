@@ -276,7 +276,7 @@
         itemLength: 8,
         itemInfo: [
             {text: '5만원 적립금', value: '', image: 'img/1.png',},
-            {text: '10% 학인쿠폰', value: '', image: 'img/2.png',},
+            {text: '10% 할인쿠폰', value: '', image: 'img/2.png',},
             {text: '꽝!', value: '', image: 'img/3.png',},
             {text: '사은품 증정', value: '', image: 'img/4.png',},
             {text: '7% 할인쿠폰', value: '', image: 'img/5.png',},
